@@ -1,0 +1,40 @@
+body
+{
+    font-family: 'PT Sans', sans-serif;
+    margin: 5%;
+}
+h1
+{
+    font-size: 40px;
+}
+.orange-color{
+
+    color: orange;
+}
+.flexible-container
+{
+    display: flex;
+    margin-bottom: 150px;
+}
+.half-width
+{
+    width: 50%;
+    padding-top: 2%;
+}
+.half-width img{
+    width: 80%;
+}
+.button
+{
+    text-decoration: none;
+    background-image: linear-gradient(orange,red);
+    padding: 10px 40px;
+    color: white;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+.about
+{
+    background-image: url(images/shapes/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+}
