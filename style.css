@@ -2,10 +2,13 @@ body
 {
     font-family: 'PT Sans', sans-serif;
     margin-left:  5%;
+    
 }
 h1
 {
-    font-size: 40px;
+    font-size: 50px;
+    font-weight: 800;
+    opacity: .7;
 }
 .orange-color{
 
@@ -14,7 +17,8 @@ h1
 .flexible-container
 {
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 .half-width
 {
@@ -22,15 +26,23 @@ h1
     padding-top: 2%;
 }
 .half-width img{
+    
+   max-width: 100%;
+   padding-left: 10%;
    max-width: 80%;
-   padding-left: 8%;
-   max-width: 80%;
-   max-height: 80;
+   max-height: 80%;
+}
+#modify-img
+{
+    width: 30%;
+    padding-right: 15%;
+    padding-left: 10%;
+
 }
 .button
 {
     text-decoration: none;
-    background-image: linear-gradient(orange,red);
+    background-image: linear-gradient(orange,green);
     padding: 10px 40px;
     color: white;
     margin-top: 50px;
@@ -41,7 +53,7 @@ h1
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
     background-position: left;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 .recipie
 {
@@ -63,6 +75,7 @@ padding-right: 15px;
 margin-left: 30px;
 box-shadow: 10px 20px 40px grey;
 border-radius: 8%;
+margin-right: 2%;
 
 }
 .one-third-width img
