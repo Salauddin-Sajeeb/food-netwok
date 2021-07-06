@@ -52,6 +52,7 @@ margin-bottom: 100px;
 .food-item
 {
     display: flex;
+    margin-bottom: 100px;
 }
 .one-third-width
 {
@@ -71,6 +72,14 @@ padding-top: 15px;
 padding-right: 15px;
 border-radius: 40px;
 
+}
 
+.footer
+{
+    color: white;
+    text-align: center;
+    background-color: black;
+    padding-top: 30px;
+    padding-bottom: 100px;
 
 }
